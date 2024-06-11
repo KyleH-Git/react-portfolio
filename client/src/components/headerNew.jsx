@@ -1,4 +1,4 @@
-import NavTabs from './navTabs';
+import NavTabs from './navTabsNew'
 
 function Header () {
     return (
