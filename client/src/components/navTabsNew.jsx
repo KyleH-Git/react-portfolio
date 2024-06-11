@@ -1,10 +1,20 @@
-
+import { Link, useLocation } from 'react-router-dom';
 
 function NavTabs() {
-    
+    const currentPage = useLocation().pathname;
+    console.log(currentPage);
     return (
         <ul>
-            <li>about me</li>
+            <li>
+                <Link to='/'>
+                Home
+                </Link>
+            </li>
+            <li>
+                <Link to='/About'>
+                About
+                </Link>
+            </li>
         </ul>
     );
 }
