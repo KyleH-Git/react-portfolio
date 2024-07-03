@@ -1,9 +1,9 @@
 import { Link, useLocation } from 'react-router-dom';
 
-function NavTabs() {
+function NavTabOffset() {
     const currentPage = useLocation().pathname;
     return (
-        <ul class='nav-bar'>
+        <ul class='nav-bar nav-bar-offset'>
             {currentPage != '/' &&
                 <li>
                     <Link to='/'>
@@ -29,4 +29,4 @@ function NavTabs() {
     );
 }
 
-export default NavTabs;
+export default NavTabOffset;

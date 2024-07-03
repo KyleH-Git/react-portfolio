@@ -1,6 +1,15 @@
+import { Link} from 'react-router-dom';
+
 function Error () {
     return (
-        <div>You're lost!</div>
+        <div>
+            <p>
+                You're lost!
+            </p>
+            <Link to='/'>
+                Home
+            </Link>
+        </div>
     );
 }
 

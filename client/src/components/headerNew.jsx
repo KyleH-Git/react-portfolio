@@ -1,9 +1,11 @@
 import NavTabs from './navTabsNew'
+import NavTabOffset from './navTabOffset';
 
 function Header () {
     return (
         <header>
-            hello
+            <NavTabOffset/>
+            Kyle Hayden's Portfolio
             <NavTabs/>
         </header>
     );
